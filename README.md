@@ -1,3 +1,5 @@
+## Nombre: Andres Felipe Gonzalez Noreña
+
 # Explicacion Diseño de clases y Encapsulacion
 Se implementó un diseño basado en Programación Orientada a Objetos (POO) para centralizar la lógica del negocio en una clase conductora, facilitando el mantenimiento y la escalabilidad del sistema. La encapsulación se utilizó para proteger la integridad del inventario, asegurando que el estado de los equipos y su historial solo se modifiquen a través de métodos controlados. Esto oculta la complejidad interna de las estructuras (diccionarios anidados y tuplas) y ofrece una interfaz clara y segura para el usuario, evitando manipulaciones accidentales de los datos.
 
