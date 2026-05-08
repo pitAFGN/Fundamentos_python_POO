@@ -1,17 +1,13 @@
-class Coche:
-    def __init__(self, marca, modelo, color):
-        self.marca = marca
-        self.modelo = modelo
-        self.color = color
-        self.kilometraje = 0
+class Persona:
+    def __init__(self, nombre):
+        self.nombre = nombre
 
-mi_coche = Coche("Toyota", "Corolla", "Azul")
+# Creamos una persona
+juan = Persona("Juan")
 
-print(f"Color inicial: {mi_coche.color}")
-print(f"Kilometraje inicial: {mi_coche.kilometraje}")
+# Añadimos atributos dinámicamente
+juan.edad = 30
+juan.profesion = "Ingeniero"
 
-mi_coche.color = "Rojo"
-mi_coche.kilometraje = 1500
-
-print(f"Nuevo color: {mi_coche.color}")
-print(f"Kilometraje actual: {mi_coche.kilometraje}")
+print(f"{juan.nombre} tiene {juan.edad} años y es {juan.profesion}")
+# Imprime: Juan tiene 30 años y es Ingeniero
